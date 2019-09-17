@@ -11,6 +11,7 @@ const SliderTemplates = props => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    //Overwrite the setting if there is any changes
     ...props.settings
   };
 
